@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.apps.matrixxlauncher.icons.overlay">
-    <overlay android:priority="0" android:targetName="MatrixxLauncherIconsOverlay" android:targetPackage="com.android.launcher3"/>
+    <overlay android:priority="1" 
+             android:targetName="MatrixxLauncherIconsOverlay" 
+             android:isStatic="true"
+             android:targetPackage="com.android.launcher3"/>
 
-    <application android:hasCode="false" android:label="MatrixxLauncherIconsOverlay" android:isStatic="true" />
+    <application android:hasCode="false" 
+                 android:label="MatrixxLauncherIconsOverlay" />
 </manifest>

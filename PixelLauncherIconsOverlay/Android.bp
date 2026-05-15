@@ -5,7 +5,6 @@ runtime_resource_overlay {
     sdk_version: "current",
     product_specific: true,
     resource_dirs: [
-        "res",
-        "res-lawnicons",
+        "res"
     ],
 }
